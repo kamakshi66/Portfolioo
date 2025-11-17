@@ -1,0 +1,831 @@
+
+  
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+  
+  
+
+
+}
+
+.submenu14{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+ /* nav h1{
+  
+  text-align: right;
+  margin-right: 210px; 
+
+
+
+
+
+
+
+nav {
+   
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+             
+    background-color:rgb(253, 253, 253);
+    border-bottom: 1px solid rgb(205, 203, 203);
+    gap:40px;
+
+    
+  }
+
+
+ 
+
+.logo{
+    margin-right: 300px;
+    font-weight: bold;
+    
+}
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;   
+    
+               
+  }
+
+
+  nav ul li{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+                
+  }
+
+
+nav ul li a.active {
+  color: rgb(32, 30, 30);
+  font-weight: bold;
+}
+
+
+ 
+ */
+
+
+
+
+
+nav {
+  display: flex;
+  justify-content: center;         /* center all nav content */
+  align-items: center;
+  background-color: rgb(253, 253, 253);
+  border-bottom: 1px solid rgb(205, 203, 203);
+  gap: 40px;
+  padding: 10px 0;
+}
+
+/* Logo / title styling */
+nav h1 {
+  margin-right: 250px;             /* pushes logo slightly left */
+  font-weight: bold;
+  color: black;
+}
+
+/* Navigation list */
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Each list item */
+nav ul li a {
+  text-decoration: none;
+  color: black;                    /* makes all nav links black */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+  color: rgb(100, 100, 100);       /* softer gray on hover */
+}
+
+/* Optional: make “Home” stand out */
+nav ul li:first-child a {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .submenu{
+    text-align: center;
+    
+  }
+
+
+
+
+ /*  button{
+    background-color: rgb(124, 121, 121);
+    color: white;
+    cursor: pointer;
+    border-radius: 3ch;
+    margin: 1rem;
+    height:40px;
+    width:120px;
+  } */
+
+
+
+
+button {
+  background-color: rgb(124, 121, 121);
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 3ch;
+  margin: 1rem;
+  height: 40px;
+  width: 120px;
+  transition: all 0.3s ease; /* smooth hover animation */
+}
+
+/* Hover effect */
+button:hover {
+  background-color: rgb(90, 88, 88); /* slightly darker shade */
+  transform: scale(1.05);            /* gentle zoom effect */
+}
+
+
+
+
+
+
+
+
+
+
+  .submenu1{
+    text-align: center;
+    margin: 0;
+   
+  }
+.submenu2{
+ 
+ padding: 10px;
+  border: 3px initial rgb(239, 233, 233);
+  box-shadow: 0 5px 10px -5px rgb(96, 92, 92); /* subtle white glow only at the bottom */
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  width: 90%;
+  cursor: pointer;
+  height: 368px;
+
+
+}
+h4{
+
+    font-weight: 200;
+    margin:20px;
+    border-radius: 2cap;
+    background-color:rgb(217, 211, 211);
+    width: 80px;
+    text-align: center;
+    
+}
+h5 ul{
+    display: flex;
+    gap:60px;
+    list-style: none;
+    text-align: center;
+    
+}
+h5 ul li{
+    height: 20px;
+    width:100px;
+    text-align: center;
+    background-color: rgb(226, 222, 222);
+    border-radius: 5cap;
+    
+}
+
+
+
+
+
+
+
+
+.submenu2{
+ 
+ padding: 10px;
+  border: 3px initial rgb(239, 233, 233);
+  box-shadow: 0 5px 10px -5px rgb(96, 92, 92); /* subtle white glow only at the bottom */
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  width: 90%;
+  cursor: pointer;
+  height: 368px;
+
+
+}
+h4{
+
+    font-weight: 200;
+    margin:20px;
+    border-radius: 2cap;
+    background-color:rgb(217, 211, 211);
+    width: 80px;
+    text-align: center;
+    
+}
+h5 ul{
+    display: flex;
+    gap:60px;
+    list-style: none;
+    text-align: center;
+    
+}
+h5 ul li{
+    height: 20px;
+    width:200px;
+    text-align: center;
+    background-color: rgb(226, 222, 222);
+    border-radius: 5cap;
+    
+}
+
+
+
+
+
+
+
+.submenu11{
+ 
+  padding: 10px;
+  border: 3px initial rgb(239, 233, 233);
+  box-shadow: 0 5px 10px -5px rgb(96, 92, 92); /* subtle white glow only at the bottom */
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  width: 90%;
+  cursor: pointer;
+  height: 360px;
+ 
+
+}
+h4{
+
+    font-weight: 200;
+    margin:20px;
+    border-radius: 2cap;
+    background-color:rgb(217, 211, 211);
+    width: 80px;
+    text-align: center;
+    
+}
+h5 ul{
+    display: flex;
+    gap:60px;
+    list-style: none;
+    text-align: center;
+    
+}
+h5 ul li{
+    height: 20px;
+    width:100px;
+    text-align: center;
+    background-color: rgb(226, 222, 222);
+    border-radius: 5cap;
+    
+}
+
+
+
+
+.submenu11 {
+  position: relative;
+  overflow: hidden;
+}
+.submenu11 h4,
+.submenu11 h1,
+.submenu11 p,
+.submenu11 h5 {
+  position: relative;
+  z-index: 1;
+  color: black;
+}
+ 
+
+
+
+
+
+
+
+
+
+ .submenu12{
+ 
+ padding: 10px;
+  border: 3px initial rgb(239, 233, 233);
+  box-shadow: 0 5px 10px -5px rgb(96, 92, 92); 
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  width: 90%;
+  cursor: pointer;
+  height: 360px;
+ 
+
+}
+h4{
+
+    font-weight: 200;
+    margin:20px;
+    border-radius: 2cap;
+    background-color:rgb(217, 211, 211);
+    width: 80px;
+    text-align: center;
+    
+}
+h5 ul{
+    display: flex;
+    gap:60px;
+    list-style: none;
+    text-align: center;
+    
+}
+h5 ul li{
+    height: 20px;
+    width:100px;
+    text-align: center;
+    background-color: rgb(226, 222, 222);
+    border-radius: 5cap;
+    
+} 
+
+/* .submenu12 {
+  position: relative;  enable positioning inside 
+  overflow: hidden;
+   /* keep content within box 
+}
+
+.submenu12 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 40%;
+  object-fit: cover;       image fills box neatly 
+  opacity: 0.4;           fade image slightly so text is visible 
+  z-index: 0;              put image behind text 
+}
+
+.submenu12 h4,
+.submenu12 h1,
+.submenu12 p,
+.submenu12 h5 {
+  position: relative;
+  z-index: 1;             ensure text stays above image 
+  color: black;           adjust for readability
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.submenu13{
+
+ padding: 10px;
+  border: 3px initial rgb(239, 233, 233);
+  box-shadow: 0 5px 10px -5px rgb(96, 92, 92); /* subtle white glow only at the bottom */
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  width: 90%;
+  cursor: pointer;
+  height:360px;
+  color: black;
+
+
+}
+h4{
+
+    font-weight: 200;
+    margin:20px;
+    border-radius: 2cap;
+    background-color:rgb(217, 211, 211);
+    width: 80px;
+    text-align: center;
+   
+    
+}
+h5 ul{
+    display: flex;
+    gap:60px;
+    list-style: none;
+    text-align: center;
+    
+}
+h5 ul li{
+    height: 20px;
+    width:100px;
+    text-align: center;
+    background-color: rgb(226, 222, 222);
+    border-radius: 5cap;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.submenu4 {
+    text-align: center;
+    
+    
+}
+.submenu5{
+  
+   gap:10px;
+   text-align: center;
+  
+    
+}
+.submenu5 ul{
+   display: flex;
+   gap:10px;
+   justify-content: center;
+   list-style: none;
+
+   
+}
+.submenu5 ul li{
+   box-shadow: 0 5px 10px -5px rgb(96, 92, 92);
+    background-color:white;
+    box-shadow: rgb(60, 59, 59);
+     height:170px;
+     width:310px;
+    border-radius: 2cap;
+      transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.submenu5 h1{
+ font-size: 20px;
+}
+
+
+.submenu7 {
+  text-align: center;
+  margin: 40px auto;
+   width:800px;
+  height: 60px;
+  background-color: rgb(227, 220, 220);
+  border-radius:2cap;
+  padding:40px;
+}
+
+.submenu7 h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.submenu7 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* space between each item */
+}
+
+.submenu7 ul li {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+   flex-direction: column; 
+}
+
+/* grey line between each skill */
+
+
+.tick {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  
+}
+
+
+
+ 
+
+
+
+/* 
+.submenu7{
+    margin: 1% auto;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(235, 230, 230);
+    border-radius: 1cap;
+    width:600px;
+
+
+  } */
+.submenu9 {
+  text-align: center;
+ 
+  
+}
+
+.submenu9 h1 {
+  margin-bottom: 30px;
+}
+
+
+.submenu9 ul {
+  text-align: center;
+  justify-content: center;
+  font-size: 110%;
+  list-style: none;
+  flex-wrap : wrap; 
+      /* centers boxes */
+  align-items: center;           /* vertically aligns if needed */
+  gap: 40px;  
+   /* makes it responsive on small screens */
+   
+}
+.submenu9 ul li {
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  gap:40px;
+  display: block;
+  border-radius: 10px;
+  border:rgb(191, 185, 185);
+  border-radius: 5cap;
+  border:1px solid rgb(231, 226, 226);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+  
+}
+
+.submenu9 h5{
+  font-size: 100%;
+
+
+}
+
+
+.thankyou {
+  text-align: center;
+  padding: 20px 0;
+  color: #333;
+  font-size: 1rem;
+  background: transparent;       /* no full background */
+  position: relative;
+}
+
+/* small decorative accent line */
+.thankyou::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #999;
+  border-radius: 3px;
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.submenu7 a {
+  text-decoration: none;
+   background-color: black;
+   color:white;
+   border-style:outset;
+  
+}
+
+a{
+   text-decoration: none;
+  
+}
+
+
+
+
+
+
+.submenu a{
+  color: rgb(48, 47, 47);
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.3s;
+
+}
+
+.submenu a:hover{
+  color: #b3b3b3; /* hover color */
+  
+}
+
+
+
+
+/* Section Heading */
+.submenu8 {
+  text-align: center;
+  margin: 60px 0 40px;
+}
+
+.submenu8 h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+/* Experience Container */
+.submenu9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Experience Cards */
+.submenu9 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.submenu9 ul li {
+  background: white;
+  width: 320px;
+  border-radius: 12px;
+  border: 1px solid rgb(231, 226, 226);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submenu9 ul li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Internship Title */
+.submenu9 h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2d2d2d;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Internship Description */
+.submenu9 p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Optional: subtle background for last section */
